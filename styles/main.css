@@ -1,16 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Crete Round', serif;
+    text-align: center;
+  }
+
+body {
+    background-color: #646464;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
 .shop{
-    flex-basis: 25%; /* make each child element the same width*/
+    flex-basis: 33%; /* make each child element the same width*/
     border: 1px dotted black;
     text-align: left; 
+    margin-bottom: 1em;
 }
-
+.shop__info {
+    margin-bottom: 0.75em;
+  }
+  
+  section.shop__name {
+    margin-bottom: 0.25em;
+  }
+  
+  .shop__info p {
+    text-align: center;
+  }
+  
 .list{
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-evenly;
+    margin: 0 2em;
 }
 
 .pageHeader{
    text-align: center; 
    padding: 1em;
+   font-size: 2em;
 }
